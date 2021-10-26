@@ -1,6 +1,21 @@
+/* Import the font */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+/*
+Delete the default margin and height
+*/
 html,
 body {
   width: 100vw;
   height: 100vh;
+  margin: 0;
+  font-family: "Red Hat Display";
+  font-weight: normal;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Config the global paragraph */
+p {
   margin: 0;
 }

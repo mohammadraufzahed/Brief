@@ -1,0 +1,97 @@
+#card {
+  margin: auto;
+  width: 450px;
+  height: max-content;
+  border: 1px solid transparent;
+  border-radius: 5%;
+  background-color: #ffff;
+  overflow: hidden;
+}
+
+#card > #card-summery {
+  text-align: center;
+}
+#card > #card-summery > #card-summery-title {
+  color: hsla(223, 47%, 23%, 1);
+  font-weight: bold;
+}
+#card > #card-summery > #card-summery-paragraph {
+  color: hsla(224, 23%, 55%, 1);
+  padding: 0px 2.7vw 0px 2.7vw;
+}
+#card > #card-music-box {
+  display: flex;
+  text-align: center;
+  margin: 10% 10% 0 10%;
+  padding: 2%;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(225, 100%, 98%, 1);
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#card > #card-music-box > * {
+  margin: auto;
+}
+#card > #card-music-box > #card-music-icon {
+  padding-right: 5%;
+}
+#card > #card-music-box > #card-music-plan {
+  padding-right: 30%;
+}
+#card > #card-music-box > #card-music-plan > span:nth-child(3) {
+  color: hsla(224, 23%, 55%, 1);
+}
+#card > #card-music-box > #card-music-plan > span:nth-child(1) {
+  color: hsla(223, 47%, 23%, 1);
+  font-weight: bold;
+}
+#card > #card-music-box > a {
+  margin: auto;
+  color: hsla(245, 75%, 52%, 1);
+}
+#card > #card-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  padding-bottom: 8%;
+}
+#card > #card-buttons > div {
+  width: 70%;
+  margin: auto;
+}
+#card > #card-buttons > div:nth-child(1) {
+  margin-bottom: 5%;
+}
+#card > #card-buttons > div > button {
+  width: 100%;
+  border: 0;
+  border: 1px solid transparent;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+#card > #card-buttons > div:first-child > button {
+  background-color: hsla(223, 47%, 23%, 1);
+  transition: all .3s;
+  color: hsl(225, 100%, 98%);
+}
+#card > #card-buttons > div > button {
+  padding: 5% 0px 5% 0px;
+}
+#card > #card-buttons > div:first-child > button:hover {
+  background-color: #8d00f3;
+  transition: all 0.3s;
+}
+#card > #card-buttons > div:last-child > button {
+  transition: all .3s;
+}
+#card > #card-buttons > div:last-child > button:hover {
+  background-color: white;
+  color: #392E5C;
+  transition: all .3s;
+
+}
